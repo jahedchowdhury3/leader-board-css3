@@ -2,6 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* common style  */
+header{
+    background-color: #562EFF;
+    color: #ffffff;;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 400px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 350px; */
+    /* margin-left: 400px; */
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.logo-text{
+    padding-left: 15px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    /* margin-right: 350px; */
+
+}
+.list-info{
+    list-style: none;
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -127,6 +163,9 @@ hr{
 
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+    nav{
+        margin: 0 0 0 15px;
+    }
     .container{
         width: 100%;
     }
